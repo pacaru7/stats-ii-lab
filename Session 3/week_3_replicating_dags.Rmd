@@ -26,6 +26,9 @@ dagify(y ~ x) %>%
 ```{r fig.width = 5, fig.height = 4}
 dagify(y ~~ x) %>% 
   ggdag()
+
+coor<- list ( 
+  x= c( =))
 ```
 
 #### x is a confounder
